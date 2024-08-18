@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Java Haven - Feedback</title>
+    <style>
+        body {
+            background-image: url('background-image.jpg');
+            background-size: cover;
+            color: #333;
+            font-family: Arial, sans-serif;
+        }
+        h1, h2 {
+            color: #8B4513;
+            text-align: center;
+        }
+        p {
+            text-align: justify;
+            margin: 0 20px;
+        }
+        .highlight {
+            color: #D2691E;
+        }
+        .center {
+            text-align: center;
+        }
+        .navbar {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .navbar a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #8B4513;
+        }
+        form {
+            margin: 0 auto;
+            width: 50%;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+        }
+        fieldset {
+            border: 1px solid #8B4513;
+            padding: 10px;
+        }
+        legend {
+            color: #8B4513;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+        }
+        input[type="submit"] {
+            background-color: #8B4513;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #D2691E;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a> | 
+        <a href="second.html">Catalogue</a> | 
+        <a href="feedback.html">About Us</a>
+    </div>
+    <h1>Feedback and Registration</h1>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Register as a User</legend>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </fieldset>
+        <fieldset>
+            <legend>Comments and Feedback</legend>
+            <label for="comments">Your Comments:</label>
+            <textarea id="comments" name="comments" rows="4" required></textarea>
+        </fieldset>
+        <input type="submit" value="Submit">
+    </form>
+    <p class="center"><a href="index.html">Back to Main Page</a></p>
+</body>
+</html>
